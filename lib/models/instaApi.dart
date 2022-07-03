@@ -39,7 +39,7 @@ class FlutterInsta {
         "/" +
         listUrl[4] +
         "/" +
-        listUrl[6];
+        listUrl[5];
     print(postUrl);
     final res = await http.get(Uri.parse(postUrl));
     String body = res.body;
